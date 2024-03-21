@@ -1,6 +1,6 @@
 <?php
 
-namespace Akash\LaravelUniqueSlug;
+namespace Akash\LaravelPkgTem;
 
 use Illuminate\Support\ServiceProvider;
 
