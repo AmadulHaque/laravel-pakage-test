@@ -1,0 +1,35 @@
+{
+    "name": "amadul-haque/laravel-package-template",
+    "description": "A simple but beautiful package template",
+    "keywords": [
+        "laravel",
+        "laravel-package-template"
+    ],
+    "homepage": "https://github.com/AmadulHaque/laravel-pakage-test",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AmadulHaque\\LaravelPkgTem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AmadulHaque",
+            "email": "mdamadulhaque8@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmadulHaque\\LaravelPkgTem\\TemplateServiceProvider"
+            ],
+            "aliases": {
+                "Template": "AmadulHaque\\LaravelPkgTem\\Template"
+            }
+        }
+    }
+}
